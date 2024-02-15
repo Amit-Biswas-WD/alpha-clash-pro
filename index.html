@@ -40,8 +40,8 @@
                 <!-- keybord start-->
                 <div>
                     <div class="flex justify-center gap-1 my-1 w-full">
-                        <kbd id="w" class="kbd">w</kbd>
                         <kbd id="q" class="kbd">q</kbd>
+                        <kbd id="w" class="kbd">w</kbd>
                         <kbd id="e" class="kbd">e</kbd>
                         <kbd id="r" class="kbd">r</kbd>
                         <kbd id="t" class="kbd">t</kbd>
@@ -50,8 +50,8 @@
                         <kbd id="i" class="kbd">i</kbd>
                         <kbd id="o" class="kbd">o</kbd>
                         <kbd id="p" class="kbd">p</kbd>
-                      </div> 
-                      <div class="flex justify-center gap-1 my-1 w-full">
+                    </div> 
+                    <div class="flex justify-center gap-1 my-1 w-full">
                         <kbd id="a" class="kbd">a</kbd>
                         <kbd id="s" class="kbd">s</kbd>
                         <kbd id="d" class="kbd">d</kbd>
@@ -61,8 +61,8 @@
                         <kbd id="j" class="kbd">j</kbd>
                         <kbd id="k" class="kbd">k</kbd>
                         <kbd id="l" class="kbd">l</kbd>
-                      </div> 
-                      <div class="flex justify-center gap-1 my-1 w-full">
+                    </div> 
+                    <div class="flex justify-center gap-1 my-1 w-full">
                         <kbd id="z" class="kbd">z</kbd>
                         <kbd id="x" class="kbd">x</kbd>
                         <kbd id="c" class="kbd">c</kbd>
@@ -71,20 +71,22 @@
                         <kbd id="n" class="kbd">n</kbd>
                         <kbd id="m" class="kbd">m</kbd>
                         <kbd id="/" class="kbd">/</kbd>
-                      </div>
+                    </div>
                 </div>
                 <!-- keybord end-->
                 <!-- life score start-->
                 <div class="flex justify-between w-2/4"> 
+                    <!-- display life -->
                     <button class="btn rounded-full bg-purple-500  text-white border-none">
                         <p>Like</p>
                         <i class="fa-regular fa-heart"></i>
-                        <p>1</p>
-                      </button>
-                      <button class="btn rounded-full bg-purple-500  text-white border-none">
+                        <p id="currnet-life">5</p>
+                    </button>
+                    <!-- display score -->
+                    <button class="btn rounded-full bg-purple-500  text-white border-none">
                         <p>Scor</p>
                         <i class="fa-solid fa-comment-dollar"></i>
-                        <p>1</p>
+                        <p id="current-score">0</p>
                       </button>
                 </div>
                 <!-- life score end-->
@@ -94,7 +96,7 @@
         <!-- final score start -->
         <section class="score flex justify-center items-center min-h-screen hidden">
             <div class="text-white text-center space-y-6 bg-[#ffffff33] p-4 rounded-lg">
-                <h1 class="text-8xl"><span class="font-extrabold">Score:</span>
+                <h1 class="text-8xl"><span class="font-extrabold">Score: </span>
                 <span>14</span>
             </h1>
             <button class="btn rounded-lg">Play Again</button>
